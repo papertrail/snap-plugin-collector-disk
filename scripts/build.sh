@@ -87,7 +87,7 @@ elif [ "$build_type" = "pkg" ]; then
     -n ${plugin_name} \
     -m "Papertrail <support@papertrailapp.com>" \
     -v ${version_num} \
-    -d "snap-telemetry|appoptics-snaptel" \
+    -d "snap-telemetry" \
     --license "Apache" \
     --url "https://www.papertrail.com" \
     --description "Disk plugin for the Intel snap agent" \
